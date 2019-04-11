@@ -14,8 +14,7 @@ var app = express();
 var mongoose = require('mongoose');
 
 // USE YOUR OWN CONNECTION STRING
-// var mongoDB = 'mongodb+srv://cs_test:P1ng@P0ng@cluster0-mhpvz.gcp.mongodb.net/merndb?retryWrites=true';
-var mongoDB = 'mongodb+srv://cs_test:P1ng@P0ng@cluster0-mhpvz.gcp.mongodb.net/merndb?retryWrites=true';
+var mongoDB = 'mongodb+srv://admin:test4321@cluster0-ueqkv.mongodb.net/CodeTogether?retryWrites=true';
 
 mongoose.connect(mongoDB, {useNewUrlParser: true});
 var db = mongoose.connection;
